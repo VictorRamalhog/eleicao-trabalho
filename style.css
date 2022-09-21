@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    justify-content: space-between;
+    background-color: #121d51;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-bottom: 4px;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.txt-head {
+    color: #efefef;
+    padding-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    letter-spacing: 1.5px;
+    cursor: default;
+}
+
+#menu { 
+    background-color: #121d51dc;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: -200px;
+    padding: 0px 0 0 0;
+    transition: 0.5s;
+}
+
+#menu li a {
+    transition: 0.5s;
+}
+
+#menu li {
+    padding: 10px 0 10px 10px;
+}
+
+#menu li a {
+    text-decoration:none;
+    color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    padding-top: 5px;
+    transition: 0.5s;
+}
+
+#menu li a:hover {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #f44e4e;
+    transition: 0.2s;
+}
+
+#fechar {
+    color: #efefef;
+    font-size:30px;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+#fechar:hover {
+    color:#f44e4e;
+}
+
+
+#abrir {
+    font-size: 40px;
+    text-decoration: none;
+    color: #efefef;
+    margin-top: 0;
+    margin-left: 47px;
+}
+
+#abrir:hover {
+    color: #f44e4e;
+    transition: 0.2s;
+}
+
+
+#menu-txt {
+    margin-bottom: 50px;
+    text-align: center;
+    opacity: 0;
+    cursor: default;
+}
+
+.img-header {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.sec-voto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #000019;
+    padding-bottom: 150px;
+    height: auto;
+}
+
+.div-sec-voto {
+    background-color: #efefef01;
+    color: #efefef;
+    height: auto;
+    width: auto;
+    margin: 10px 10px 10px 50px;
+}
+
+.div-sec-voto h1 {
+    margin-top: 200px;
+}
+
+.borda-seguir {
+    border-bottom: 1px solid white;
+    padding: 5px
+}
+
+.img-voto {
+    height: 250px;
+    margin-top: 85px;
+    transition: 1s;
+}
+
+#interrogacao {
+    position: absolute;
+    color: #111;
+    font-size: 50pt;
+    margin-left: 160px;
+    margin-top: 170px;
+    transition: 1s;
+}
+
+#interrogacao:hover {
+    color: #f44e4eca;
+}
+
+.box {
+    padding: 10px 52px 10px 52px;
+}
+
+.sec-candidatos {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #a9a9a9;
+    height: auto;
+    transition: 0.5s;
+    border-radius: 0px 0px 0px 250px;
+    padding-bottom: 35px;
+}
+
+.sec-candidatos:hover{
+    background-color: rgb(197, 197, 197);
+    font-size: 15pt;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    border: 5px solid rgb(122, 122, 122);
+    box-shadow: 2em 3em 0.8em rgb(77, 77, 77);
+}
+
+.sec-candidatos2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #a9a9a9;
+    height: auto;
+    transition: 0.5s;
+    border-radius: 250px 0px 0px 250px;
+    padding-bottom: 35px;
+}
+
+.sec-candidatos2:hover{
+    background-color: rgb(197, 197, 197);
+    font-size: 15pt;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    border: 5px solid rgb(122, 122, 122);
+    box-shadow: 2em 3em 0.8em rgb(77, 77, 77);
+}
+
+
+.div-sec-candidatos {
+    background-color: #b9a4a401;
+    color: #1e1e1e;
+    height: auto;
+    width: auto;
+    margin: 10px 10px 10px 50px;
+}
+
+.img-cand1, .img-cand2, .img-cand3 {
+    border-radius: 25px;
+    border: 1px solid white;
+    display: inline;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.art-cand {
+    width: 500px;
+}
+
+.cand-box1, .cand-box2, .cand-box3 {
+    margin-bottom: 50px;
+}
+
+
+.candidato-01, .candidato-02, .candidato-03 {
+    margin-top: 50px;
+}
+
+.candidato-01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagem-candidato {
+    width: 300px;
+    margin-right: 5px;
+}
+
+.candidato-p {
+    width: 350px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.candidato-h2 {
+    color: #121d51;
+}
+
+.candidato-proposta {
+    color: #121d51;
+    margin-bottom: 8px;
+}
+
+.caixa-apresentacao {
+    margin-right: 30px;
+}
+
+.propostas-candidato {
+    border-left: 2px solid #233489;
+    padding-left: 40px;
+    width: 500px;
+}
+
+.tema-proposta {
+    color: #203497;
+    font-weight: bold;
+    padding: 3px;
+    transition: 1s;
+}
+
+#cand {
+    background-color: #192668;
+    color: #efefef;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#cand:hover {
+    color: #838383;
+    cursor: default;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #121d51;
+    padding: 30px;
+    display: flex;
+    flex: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.txt-footer {
+    color: #efefef;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    letter-spacing: 1.5px;
+    cursor: default;
+}
